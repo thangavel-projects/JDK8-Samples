@@ -8,10 +8,10 @@ import java.util.Random;
 public class WiseSorting {
 
 	public static void main(String[] args) {
-		new WiseSorting().addElementInArray();
+		new WiseSorting().sortArray();
 	}
 	
-	private void addElementInArray(){
+	private void sortArray(){
 		
 		List<Integer> list = new ArrayList<>();
 		Random random = new Random();
